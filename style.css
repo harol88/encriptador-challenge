@@ -1,0 +1,136 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 150%;
+    font-size: 32px;
+    background: #dee7f0;
+    font-weight: 400;
+    text-align: center;
+}
+header{
+    text-align: left;
+}
+.img-logo{
+    margin: 10px;
+    width: 12%;
+    
+}
+
+textarea{
+    resize: none;
+    border:none;
+    display: inline-block;
+    width: 80%;
+    margin:0.2em 1em;
+    text-transform: lowercase;
+    background: none;
+    text-align: left;
+}
+button{
+
+    padding: 24px;
+    
+    margin: 20px 0 0px 40px;
+    gap: 8px;
+    border-radius: 15px;
+
+    
+    width: 328px;
+    height: 67px; 
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+button.button-encriptar{
+    color:#fff;
+    background: #0A3871;
+    
+}
+
+button.button-two{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+
+}
+.button-two[id="button-copy"]{
+    width: 70%;
+    margin: 1em auto;
+}
+.mensaje{
+    margin-left: 46px;
+    text-align: left;
+    font-size: 0.5em;
+}
+.principal{
+    
+    width: 60%;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    display: flex;
+    margin: 0 0 10px 20px;
+}
+.encriptado{
+    
+    width: 25%;
+    background: #fcfcfc;
+    box-shadow: 0px 24px 32px -8px rgba(56, 44, 44, 0.8);
+    border-radius: 32px;
+    margin: 1em 25px 0 0;
+   
+}
+#conteiner-encriptador{
+    
+    font-size: 24px;
+    line-height: 120%;
+    color: #0A3871;
+    background: #fff;
+
+}
+#conteiner-encriptador strong{
+    font-size: 24px;
+    font-weight: bold;
+    background: #fff;
+}
+#conteiner-encriptador p{
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+}
+#conteiner-encriptador>img{
+    width:80%;
+    margin: 0 auto;
+    background: #fff;
+
+}
+@media screen and (max-width:480px){
+    main{
+        display: inline;
+        margin: 0;
+    }
+    .principal{
+        width: 100%;
+       margin: 0;
+       padding: 0;
+    }
+    .encriptado{
+        width: 100%;
+        background: #fff;
+        box-shadow: 0px 24px 32px -8px rgba(13, 7, 7, 0.08);
+        border-radius: 32px;
+        margin: 0.5em;
+        padding: auto;
+    }
+    #conteiner-encriptado{
+        margin: 0.5em;
+    }
+}
+::placeholder{
+    color: #0A3871;
+}
+textarea:focus{
+    outline:  none;
+}
