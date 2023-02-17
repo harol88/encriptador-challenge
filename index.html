@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encriptador-Alura">
+    <meta name="keywords" content="Encriptador, Alura, Challenge">
+    <link rel="icon" href="imagenes/Logo-1.png" type="image/png" sizes="16x16">
     <title>Encriptador-Alura</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +17,7 @@
     <main>
         
         <section class="principal">      
-                <textarea name="encriptar" id="text-encriptar" cols="30" rows="8" placeholder="Ingrese el texto aqui" ></textarea>
+                <textarea name="encriptar" id="text-encriptar" cols="30" rows="8" placeholder="Ingrese el texto aqui" minlength="2"></textarea>
                 <p class="mensaje"><img src="imagenes/Vector.png" alt="mensaje"> letras en minusculas y sin acentos</p>
                 <button onclick="encriptarTexto()"  class="button-encriptar">Encriptar</button>
                 <button onclick="desencriptarTexto()" class="button-two">Desencriptar</button>
